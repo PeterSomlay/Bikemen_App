@@ -1,0 +1,53 @@
+/* Navbar betü méret */
+html {
+    font-size: 12px;
+}
+.category-list-link,
+.category-list-link:visited {
+    padding: 0px 5px;
+}
+.header-position .category-list-link,
+.header-position .category-list-link:visited {
+    font-size: 1.6rem;
+    line-height: 40px;
+}
+header  {
+    margin-top: -70px;
+}
+.header-categories-wrapper,
+#category > .module-body > #category-nav > .category_menu > .category-list >.category-list-link {
+    background: gold;
+    color: #000;
+}
+#category > .module-body > #category-nav > .category_menu > .category-list >.category-list-link:hover {
+    background: #292929;
+    color: #fff;
+}
+.navbar {
+    min-height: 50px;
+    margin-bottom: 20px;
+}
+.category-list-link,
+.category-list-link:visited {
+    display: block;
+    text-decoration: none
+}
+.category-list-link-text {
+    font-size: inherit;
+    color: inherit;
+    display: inline
+}
+.sf-horizontal > li {
+    position: relative;
+    display: inline-block
+}
+/* Lábléc */
+.footer-copyright {
+    background: #292929;
+    color: #ffffff;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.copyright {
+    text-align: center;
+}
