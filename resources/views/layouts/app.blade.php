@@ -13,7 +13,15 @@
         <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
 
         <!-- Scripts -->
-
+        <!-- jQuery UI CSS -->
+        <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <!-- jQuery -->
+        <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- jQuery UI -->
+        <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+        <script type="text/javascript">
+            var siteUrl = "{{url('/')}}";
+        </script>
     </head>
     <body class="font-sans antialiased">
         <div class="min-h-screen bg-gray-100 dark:bg-gray-900">
@@ -26,7 +34,7 @@
                 <div class="header-middle" style="text-align: center;">
                     <div class="container">
                         <div class="header-middle-left">
-                            <a href="">
+                            <a href="{{ __('dashboard') }}">
                                 <img src="https://bikemen.cdn.shoprenter.hu/custom/bikemen/image/cache/w600h80m00/bikemen-logo-600x80.png?v=1610795655" />
                             </a>
                         </div>
@@ -45,7 +53,7 @@
                                                 </a>
                                             </li>
                                             <li class="category-list">
-                                                <a href="" class="category-list-link">
+                                                <a href="{{ __('worksheet_input') }}" class="category-list-link">
                                                     <h3 class="category-list-link-text">Munkafelvétel</h3>
                                                 </a>
                                             </li>
@@ -133,6 +141,17 @@
             <main>
                 {{ $slot }}
             </main>
+            <footer class="">
+                <section class="footer-copyright">
+                    <div class="">
+                        <div class="copyright">
+                            <div class="">
+                                © 2024   Somy Design
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </footer>
         </div>
     </body>
 </html>

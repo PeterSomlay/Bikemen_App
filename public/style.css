@@ -30,12 +30,7 @@ header  {
 .category-list-link,
 .category-list-link:visited {
     display: block;
-    text-decoration: none
-}
-.category-list-link-text {
-    font-size: inherit;
-    color: inherit;
-    display: inline
+    text-decoration: none;
 }
 .sf-horizontal > li {
     position: relative;

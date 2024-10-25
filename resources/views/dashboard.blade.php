@@ -6,53 +6,52 @@
     </x-slot>
 
     <div class="position-relative">
+        <div class="d-flex justify-content-center m-4">
+                <h1>DÁTUM KIIRATÁSA !</h1>
+        </div>
+        <div class="d-flex justify-content-center m-4">
+            <h3>Ma dolgozik: NEVEK KIIRATÁSA !</h3>
+        </div>
         <div class="d-flex justify-content-center">
-        <form action="">
-            <div class="input-group input-group-lg m-4 w-100">
-                <span class="input-group-text" id="basic-addon1">Átvevő</span>
-                <input type="text" class="form-control" aria-label="Átvevő" aria-describedby="basic-addon1" id="recipient" />
-            </div>
-            <div class="input-group input-group-lg m-4 w-100">
-                <span class="input-group-text" id="basic-addon2">Név</span>
-                <input type="text" class="form-control" aria-label="Név" aria-describedby="basic-addon2" id="name" autocomplete="off" />
-            </div>
-            <div class="input-group input-group-lg m-4 w-100">
-                <span class="input-group-text" id="basic-addon3">Telefonszám</span>
-                <input type="tel" class="form-control" aria-label="Telefonszám" aria-describedby="basic-addon3" id="mobil" autocomplete="off"/>
-            </div>
-            <div class="input-group input-group-lg m-4 w-100">
-                <span class="input-group-text" id="basic-addon4">E-mail</span>
-                <input type="email" class="form-control" aria-label="Telefonszám" aria-describedby="basic-addon4" id="email" autocomplete="off"/>
-            </div>
-            <div class="input-group input-group-lg m-4 w-100">
-                <span class="input-group-text" id="basic-addon5">Kerékpár Márka</span>
-                <input type="text" class="form-control" aria-label="Kerékpár Márka" aria-describedby="basic-addon5" id="mark"/>
-            </div>
-            <div class="input-group input-group-lg m-4 w-100">
-                <span class="input-group-text" id="basic-addon6">Kerékpár Típusa</span>
-                <input type="text" class="form-control" aria-label="Kerékpár Típusa" aria-describedby="basic-addon6" id="type"/>
-            </div>
-            <div class="input-group input-group-lg m-4 w-100">
-                <span class="input-group-text" id="basic-addon7">Kerékpár Színe</span>
-                <input type="text" class="form-control" aria-label="Kerékpár Színe" aria-describedby="basic-addon7" id="color"/>
-            </div>
-            <div class="input-group input-group-lg m-4 w-100">
-                <span class="input-group-text" id="basic-addon8">Ismertető Jegy</span>
-                <input type="text" class="form-control" aria-label="Ismertető Jegy" aria-describedby="basic-addon8" id="description"/>
-            </div>
-            <div class="input-group input-group-lg m-4 w-100">
-                <span class="input-group-text" id="basic-addon9">Behozatal Dátuma</span>
-                <input type="date" class="form-control" aria-label="Behozatal Dátuma" aria-describedby="basic-addon9" id="in_date"/>
-            </div>
-            <div class="input-group input-group-lg m-4 w-100">
-                <span class="input-group-text" id="basic-addon10">Vállalás Dátuma</span>
-                <input type="date" class="form-control" aria-label="Vállalás Dátuma" aria-describedby="basic-addon10" id="out_date"/>
-            </div>
-            <div class="input-group input-group-lg m-4 w-100">
-                <span class="input-group-text" id="basic-addon11">Hibák leírása</span>
-                <textarea name="errors" class="form-control" rows="20" cols="70" aria-label="Hibák leírása" aria-describedby="basic-addon11" id="errors"></textarea>
-            </div>
-        </form>
+            <ul class="list-group w-50">
+                <li class="list-group-item bg-dark active display-5">A legutóbbi zárás adatai:</li>
+                <li class="list-group-item d-flex justify-content-between align-item-center display-5">Készpénz:
+                    <span class="badge text-success badge-pill">ÉRTÉK KIIRATÁSA ! Ft</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-item-center display-5">Kártya:
+                    <span class="badge text-success badge-pill">ÉRTÉK KIIRATÁSA ! Ft</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-item-center display-5">Egyéb:
+                    <span class="badge text-success badge-pill">ÉRTÉK KIIRATÁSA ! Ft</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-item-center display-5">Kivenni a kasszából:
+                    <span class="badge text-success badge-pill">ÉRTÉK KIIRATÁSA ! Ft</span>
+                </li>
+            </ul>
+        </div>
+        <div class="d-flex justify-content-center m-4">
+            <h3>Mai munkák: <a href="" class="text-primary text-decoration-none">ÉRTÉK KIIRATÁSA !</a></h3>
+        </div>
+        <div class="d-flex justify-content-center m-4">
+            <h3>Alkatrészre váró munkák: <a href="" class="text-primary text-decoration-none">ÉRTÉK KIIRATÁSA !</a></h3>
+        </div>
+        <div class="d-flex justify-content-center m-4">
+            <h3>Garanciális dolgok: <a href="" class="text-primary text-decoration-none">ÉRTÉK KIIRATÁSA !</a></h3>
+        </div>
+        <div class="d-flex justify-content-center m-4">
+            <h3>Beszerzés: <a href="" class="text-primary text-decoration-none">ÉRTÉK KIIRATÁSA !</a></h3>
+        </div>
+        <div class="d-flex justify-content-center m-4">
+            <h3>10 Napja elkészült kerékpárok vagy alkatrészek, amik még itt vannak: <a href="" class="text-primary text-decoration-none">ÉRTÉK KIIRATÁSA !</a></h3>
+        </div>
+        <div class="d-flex justify-content-center">
+            <ul class="list-group w-50 mb-5 mt-3">
+                <li class="list-group-item bg-dark active display-6"><a href="" class="text-decoration-none text-white">Emlékeztetők:</a></li>
+                <li class="list-group-item display-6">Befizetni a bérleti díjat</li>
+                <li class="list-group-item display-6">2024-10-20 Merida találkozó</li>
+                <li class="list-group-item display-6">Felhívni a riasztóst</li>
+                <li class="list-group-item display-6">Rendelést leadni</li>
+            </ul>
         </div>
     </div>
 </x-app-layout>
